@@ -1,0 +1,266 @@
+html{
+    font-family: 'OpenSans', sans-serif;
+}
+
+.border {
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding-bottom: 30px;
+    box-sizing: content-box;
+}
+
+.border:last-child {
+    border: none;
+}
+
+/*HEADER*/
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 30px 30px 0;
+}
+
+.header-wrapper {
+    background-color: rgb(83, 84, 94);
+    height: 100px;
+}
+
+.header {
+    background-color: rgb(225, 225, 225);
+}
+
+.logo-image {
+    float: left;
+}
+
+.main-heading {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.gusto-part {
+    color: rgb(166, 167, 176);
+}
+
+.header-paragraph {
+    display: block;
+    float: right;
+    padding-top: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.view-online {
+    text-decoration: none;
+    color: rgb(166, 167, 176);
+}
+
+/*MAIN CONTENT*/
+
+.main-content {
+    background-color: rgb(241, 241, 241);
+}
+
+.main-content-wrapper {
+    background-color: rgb(255, 255, 255);
+}
+
+.heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(83, 84, 94);
+    padding-top: 20px;
+}
+
+.paragraph {
+    color: rgb(191, 192, 195);
+    font-family: 'HelvaticaNeue-Medium';
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    width: 79px;
+    height: 36px;
+    background-color: rgb(83, 84, 94);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    border: none;
+}
+
+/*SMALLLER ITEM BLOCK*/
+
+.smaller-item-block {
+    height: 315px;
+}
+
+.small-item-element {
+    width: 255px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.small-item-element:nth-child(2n) {
+    margin-right: 0;
+}
+
+.add-block {
+    height: 190px;
+}
+
+.ad-space-text {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+    line-height: 28px;
+}
+
+.ad-space {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(222, 222, 222);
+    float: left;
+    margin: 30px 30px 30px 0;
+}
+
+.ad-space:nth-child(3n) {
+    margin-right: 0;
+}
+
+.blog-post-block {
+    height: 185px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: rgb(225, 225, 225);
+}
+
+.social-block {
+    padding-top: 0;
+    background-color: rgb(241, 241, 241);
+    height: 75px;
+}
+
+.in-touch {
+    padding-top: 30px;
+    display: block;
+    float: left;
+}
+
+.social-item-block {
+    float: left;
+    margin-left: 50px;
+}
+
+.social-item-image {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.footer-block {
+    background-color: rgb(83, 84, 94);
+    padding-bottom: 30px;
+}
+
+.middle-footer-text {
+    display: block;
+    float: left;
+    width: 350px;
+}
+
+.footer-info {
+    padding: 0;
+    color: rgb(241, 241, 241);
+}
+
+.quick-link-list {
+    display: block;
+    width: 135px;
+    float: right;
+}
+
+.quick-link {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.quick-link:before {
+    content: url('../images/point.png');
+    padding-right: 10px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copyright {
+    float: left;
+}
+
+.grey-footer-text {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(166, 167, 176);
+}
+
+.gusto-link {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+
+.footer-details {
+    float: right;
+}
+
+.footer-detail-item {
+    display: block;
+    float: left;
+    text-decoration: none;
+    border-left: 1px solid rgb(166, 167, 176);
+    padding: 0 5px;
+}
+
+.footer-detail-item:first-child {
+    border: none;
+}
+
+.footer-detail-item:last-child {
+    padding-right: 0;
+}
+
+.under-wrapper {
+    width: 540px;    
+    border-top: 1px solid rgb(166, 167, 176);
+    padding-top: 20px;
+}
+
+.bottom-footer-block {
+    padding-top: 0;
+}
